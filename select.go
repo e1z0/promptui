@@ -590,7 +590,7 @@ func (s *Select) setKeys() {
 		PageUp:   Key{Code: KeyBackward, Display: KeyBackwardDisplay},
 		PageDown: Key{Code: KeyForward, Display: KeyForwardDisplay},
 		Search:   Key{Code: '/', Display: "/"},
-		Exit:     Key{Code: 'q', Display: "q"},
+		Exit:     Key{Code: 'Esc', Display: "Esc"},
 	}
 }
 
